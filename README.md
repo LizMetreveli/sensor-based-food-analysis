@@ -1,6 +1,6 @@
-# Internship sensor software and experimental analysis
+# sensor software and experimental analysis
 
-Custom Python software for temperature and load-cell measurements, alongside data and analysis from boiling, frying, and grilling cactus (nopales).
+This research was done as a part of an internship at an R&D software. Objectives were to configure sensors using custom software, collect data during a cooking process and visualize the data using Python tools. This repository includes custom Python software for temperature and load-cell measurements, alongside data and analysis from boiling, frying, and grilling cactus (nopales).
 
 ## Contents
 
@@ -24,18 +24,6 @@ python sensor_software/force/load_cell_gui.py
 ```
 
 Sensor acquisition requires compatible National Instruments hardware and the NI-DAQmx driver. Check the device/channel settings against your hardware. The force GUI describes the SC616C load cell, external amplifier, NI USB-6001, and calibration workflow in its opening docstring. Calibration is specific to the measurement setup.
-
-## Analysis status
-
-This is an organized archive of the original internship work. Scripts and recorded results have been preserved without refactoring. Existing results have not been regenerated or independently validated.
-
-- Temperature and force scripts contain paths from the original acquisition computer. Update input and output paths before running them with this layout.
-- Boiling force scripts refer to `cutting_force.csv`; that input was not present in the supplied boiling archive. Existing corresponding plots and summary values are retained.
-- The supplied frying archive contains four Python scripts (three audio scripts and one force script). A frying temperature-analysis script was not supplied.
-- The supplied grilling archive contains data and results, but no analysis Python files.
-- Audio scripts provide command-line options; consult their docstrings and `--help`. WAV recordings are included. Non-WAV conversion may require FFmpeg.
-- Force recordings use the original `weight_g` measurements and labels. Check calibration and units before interpreting them as force in newtons.
-- Dependencies are listed from source imports and are not version-pinned; the original Python environment was not supplied.
 
 ## Example recorded results
 
