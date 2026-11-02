@@ -51,6 +51,3 @@ This is an organized archive of the original internship work. Scripts and record
 
 ![Frying pop counts](experiments/frying/results/figures/audio_output/pop_count_by_file.png)
 
-## Archive notes
-
-Duplicate sensor scripts and ZIP copies are omitted. Windows `desktop.ini` files are omitted. The personal internship profile/diary document is left in the original source folder. Original reports and presentations retain their original content and may use day numbers. No software or data license has been selected.
