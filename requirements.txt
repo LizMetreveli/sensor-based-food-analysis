@@ -1,0 +1,5 @@
+# Versions were not recorded in the supplied source environment.
+matplotlib
+nidaqmx
+numpy
+scipy
